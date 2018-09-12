@@ -37,6 +37,6 @@ describe('Pancake', () => {
   it('calls componentWillUnmount', () => {
     const pWrapper = mount(<Pancake />);
     pWrapper.unmount()
-    expect(pWrapper.type()).to.equal(null);
+    expect(pWrapper.).to.equal(null);
   });
 });
